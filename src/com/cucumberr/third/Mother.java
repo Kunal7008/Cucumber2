@@ -29,6 +29,7 @@ public class Mother {
 	@Then("^user login suceesfully$")
 	public void user_login_suceesfully() throws Throwable {
 	    System.out.println("go run from feature file");
+		System.out.println("github integrated sucessfully");
 	}
 
 
