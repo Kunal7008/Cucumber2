@@ -24,6 +24,7 @@ public class Mother {
 		 driver.findElement(By.cssSelector("input[name='lastname']")).sendKeys("Bolbala");
 		 Select sel=new Select(driver.findElement(By.id("day")));
 		 sel.selectByVisibleText("25");
+		System.out.println("run my program sucessfully")
 	}
 
 	@Then("^user login suceesfully$")
